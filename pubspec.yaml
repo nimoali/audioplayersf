@@ -1,0 +1,44 @@
+name: hardwork
+description: A new Flutter project.
+
+# This line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.4.0
+  youtube_player_flutter: ^8.1.1
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, uncomment and update the following lines:
+  # assets:
+  #   - assets/images/
+  #   - assets/audio/
+
+  # To add custom fonts to your application, uncomment and update the following lines:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
